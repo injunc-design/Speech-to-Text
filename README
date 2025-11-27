@@ -5,7 +5,7 @@ SWATS paper (Keskar et al., 2017): Improving Generalization Performance by Switc
 •	Compare with Adam, AdamW, SGD, Adam_SGD hand switch
 
 2.	Domain Adversarial Training via Gradient Reversal
-Unsupervised Domain Adaptation by Backpropagation
+Ganin paper: Unsupervised Domain Adaptation by Backpropagation
 •	Domain Classifier + Gradient Reversal Layer (GRL)
 •	Minimize the CTC loss to predict the correct text.
 •	Maximize the error of the domain classifier, ensuring contains no discriminative information about the recording day.
